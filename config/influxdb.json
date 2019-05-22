@@ -1,0 +1,10 @@
+{
+        "password": "",
+        "username": "",
+        "database_name": "Glidein",
+        "database_URL": "",
+        "measurement_name": "Metrics",
+        "client_metrics" : ["GlideIdle", "GlideRunning", "GlideTotal"],
+        "requested_metrics" : ["Idle"],
+        "status_metrics": ["Running", "Held", "Idle", "Pending", "IdleOther"]
+}
