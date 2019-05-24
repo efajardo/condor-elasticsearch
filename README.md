@@ -22,6 +22,7 @@ Curator on GRACC is set to delete data every 12 months.
 
 ```
 Make sure a java VM is installed. Elasticsearch needs at least java 8.
+Instructions to install Elasticsearch and other packages are in Installation.md in the master branch
 ```
 
 ### Architecture
