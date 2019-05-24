@@ -4,6 +4,11 @@
 Factory Data online (completed data from json and schedd status from xml) is aggregated using
 aggregator.py
 
+The URL of the factory data looks like:
+
+http://factory_name@host_url/factory/monitor/schedd_status.xml
+http://factory_name@host_url/factory/monitor/completed_data.json
+
 monitor.py (set on cron for 5m) calls aggregator.py. 
 Subsequently messenger.py creates exchange on pika using credentials in Rabbitmq_osg.json pushes
 the jsons one by one to Elasticsearch.
