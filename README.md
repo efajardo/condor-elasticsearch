@@ -11,7 +11,6 @@ the jsons one by one to Elasticsearch.
 Data is pulled from GRACC into Grafana.
 
 Curator on GRACC is set to delete data every 12 months.
-
 ```
 
 ### Prerequisites
@@ -24,7 +23,6 @@ Make sure a java VM is installed. Elasticsearch needs at least java 8.
 
 ```
 The main architecture is showcased in the flowchart:
-
 ```
 ![](image.png)
 
