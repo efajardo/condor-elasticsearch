@@ -25,9 +25,8 @@ Make sure a java VM is installed. Elasticsearch needs at least java 8.
 ```
 The main architecture is showcased in the flowchart:
 
-![screenshot](untitled.png)
-
 ```
+![](image.png)
 
 ### Config
 
