@@ -31,6 +31,7 @@ Instructions to install Elasticsearch and other packages are in Installation.md 
 The main architecture is showcased in the flowchart:
 
 ![](image.png)
+![](image2.png)
 
 ### Config
 
