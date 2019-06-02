@@ -13,7 +13,7 @@ monitor.py (set on cron for 5m) calls aggregator.py.
 Subsequently messenger.py creates exchange on pika using credentials in Rabbitmq_osg.json pushes
 the jsons one by one to Elasticsearch.
 
-Data is pulled from GRACC into Grafana.
+Data is pulled from GRACC into Grafana. The Dashboard json is included in the repo.
 
 Curator on GRACC is set to delete data every 12 months.
 
@@ -31,6 +31,8 @@ Instructions to install Elasticsearch and other packages are in Installation.md 
 The main architecture is showcased in the flowchart:
 
 ![](image.png)
+
+
 ![](image2.png)
 
 ### Config
