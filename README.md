@@ -1,6 +1,6 @@
 ### Overview
 
-```
+
 Factory Data online (completed data from json and schedd status from xml) is aggregated using
 aggregator.py
 
@@ -16,25 +16,25 @@ the jsons one by one to Elasticsearch.
 Data is pulled from GRACC into Grafana.
 
 Curator on GRACC is set to delete data every 12 months.
-```
+
 
 ### Prerequisites
 
-```
+
 Make sure a java VM is installed. Elasticsearch needs at least java 8.
 Instructions to install Elasticsearch and other packages are in Installation.md in the master branch
-```
+
 
 ### Architecture
 
-```
+
 The main architecture is showcased in the flowchart:
-```
+
 ![](image.png)
 
 ### Config
 
-```
+
 There are 2 main config files,
 
   Config.json takes the factory data, namely the 
@@ -49,5 +49,5 @@ There are 2 main config files,
     queue
     exchange
     key
-```
+
 
